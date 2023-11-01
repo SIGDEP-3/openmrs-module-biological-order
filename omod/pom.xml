@@ -81,7 +81,7 @@
 							<arguments>
 								<argument>install</argument>
 							</arguments>
-							<workingDirectory>${project.basedir}/../orderApp</workingDirectory>
+							<workingDirectory>../orderApp</workingDirectory>
 						</configuration>
 					</execution>
 					<execution>
