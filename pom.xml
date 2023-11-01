@@ -16,8 +16,8 @@
 	<description>no description</description>
 	<url>https://wiki.openmrs.org/x/FQ4z</url>
 	<scm>
-		<connection>scm:git:git@github.com:SIGDEP-3/sigdep-module-biological-order.git</connection>
-		<developerConnection>scm:git:git@github.com:SIGDEP-3/sigdep-module-biological-order.git</developerConnection>
+		<connection>scm:git:https://github.com/SIGDEP-3/sigdep-module-biological-order.git</connection>
+		<developerConnection>scm:git:https://github.com/SIGDEP-3/sigdep-module-biological-order.git</developerConnection>
 		<url>https://github.com/SIGDEP-3/sigdep-module-biological-order</url>
 	</scm>
 	<dependencyManagement>
