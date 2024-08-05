@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>org.openmrs.module</groupId>
 		<artifactId>biologicalorder</artifactId>
-		<version>1.0.2-SNAPSHOT</version>
+		<version>1.0.2</version>
 	</parent>
 	<artifactId>biologicalorder-omod</artifactId>
 	<packaging>jar</packaging>
@@ -13,7 +13,7 @@
 		<dependency>
 			<groupId>org.openmrs.module</groupId>
 			<artifactId>biologicalorder-api</artifactId>
-			<version>1.0.2-SNAPSHOT</version>
+			<version>1.0.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.openmrs.module</groupId>
