@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 'module/${rootArtifactid}/${rootArtifactid}Link.form'.
  */
 @Controller("${rootrootArtifactid}.BiologicalOrderController")
-@RequestMapping(value = "module/biologicalorder/biologicalorder")
+@RequestMapping(value = "module/biologicalorder")
 public class BiologicalOrderController {
 	
 	/** Logger for this class and subclasses */
@@ -46,7 +46,7 @@ public class BiologicalOrderController {
 	 * 
 	 * @return String form view name
 	 */
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(value = "biologicalorder" + ".form", method = RequestMethod.GET)
 	public String onGet() {
 		return VIEW;
 	}
